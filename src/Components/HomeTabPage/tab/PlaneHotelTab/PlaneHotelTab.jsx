@@ -1,0 +1,42 @@
+import React from 'react'
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+import "./planeHotelTab.css"
+
+
+const PlaneHotelTab = () => {
+  return (
+    <div className="main">
+        
+        <TextField id="outlined-basic" label="Nereden" variant="outlined" size="large" className="text"  sx={{mr:1}} />
+            <TextField id="aa-basic" label="Nereye" variant="outlined" className="text"  sx={{mr:1}} />
+            <TextField sx={{mr:1}}
+        id="date"
+        label="Gidiş Tarihi"
+        type="date"
+        defaultValue="2022-05-24"
+        className="text"
+       
+        InputLabelProps={{
+          shrink: true,
+        }}
+      />
+         <TextField id="date" label="Geliş Tarihi" type="date" defaultValue="2022-05-24" className="text" sx={{mr:1}}
+        InputLabelProps={{
+          shrink: true,
+        }}
+      />
+        <TextField sx={{mr:1}}
+        id="date"
+        label="Oda Sayısı"
+        type="number"
+        className="text"
+        />  
+         <Button variant="contained" className="button">
+              Uçuş Ara
+            </Button>
+           </div>
+  )
+}
+
+export default PlaneHotelTab

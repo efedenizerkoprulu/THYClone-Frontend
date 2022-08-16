@@ -1,0 +1,21 @@
+.checkin-input{
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 170px;
+    height: 55px;
+}
+.flightNoInput {
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 420px;   
+}
+
+.flight button{
+    background-color: red;
+    color: white;
+    height: 60px;
+    margin-left: 10px;
+}
+.flight  button:hover{
+    background-color: #232b38;
+}

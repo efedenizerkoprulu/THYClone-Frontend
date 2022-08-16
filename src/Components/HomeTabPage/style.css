@@ -1,0 +1,53 @@
+.container {
+    width: 1090px;
+    margin: 5em 5em 0em;
+    height: auto;
+    margin-left: 200px;
+    box-shadow: 1px 4px 4px  rgb(198, 186, 186);
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs button {
+    background-color: #F4F5F8;
+    border: none;
+    color: #647280;
+    padding: 1em 0em 2em 0em;
+    width: 220px;
+    height: 10px;
+    transition: all 0.5s ease-out;
+}
+
+.tabs button:hover {
+    color: white;
+    background-color:red
+}
+
+.tabs button:disabled {
+    background:white;
+    color: red;
+}
+
+.title {
+    color: black;
+    font-size: medium;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.content {
+    padding: 40px 30px;
+    background-color: white;
+    font-weight: 300;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.content,
+button {
+    font-size: 15px;
+}

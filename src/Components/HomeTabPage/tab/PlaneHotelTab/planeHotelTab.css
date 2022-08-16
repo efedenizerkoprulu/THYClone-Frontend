@@ -1,0 +1,13 @@
+.text{
+    width: 165px;
+}
+.main button{
+    background-color: red;
+    color: white;
+    height: 55px;
+    margin-left: 10px;
+    width: 70px;
+}
+.main  button:hover{
+    background-color: #232b38;
+}

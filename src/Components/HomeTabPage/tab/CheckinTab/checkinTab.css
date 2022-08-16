@@ -1,0 +1,26 @@
+.textinput{
+    width: 370px;
+    margin-left: 1em;
+    margin-right: 4px;
+    padding-bottom: 15px;
+}
+
+.checkin button{
+    background-color: red;
+    color: white;
+    height: 55px;
+    margin-left: 20px;
+    width: 220px;
+}
+.checkin a{
+    margin-top: 16px;
+    color: rgba(215, 14, 14, 0.763);
+    margin-right: 15px;
+    font-weight: bold;
+}
+.left{
+    float: right;
+}
+.checkin button:hover{
+    background-color: #232b38;
+}

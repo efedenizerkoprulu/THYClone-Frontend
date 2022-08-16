@@ -1,0 +1,48 @@
+.space{
+    margin:3em 0em;
+}
+.list{
+list-style: none;
+}
+.list li{
+    display: inline;
+}
+
+.socialMedia{
+    background-color: #2b3947;
+    height: 3em;
+}
+.socialMedia ul{
+    margin-left: 40em;
+    padding-top: 1em;
+    
+}
+.socialMedia li{
+    display: inline;
+    margin-right: 15px;
+}
+.icon{
+    color: white;
+    font-size:20px;
+}
+
+.footer{
+    background-color: #232b38;
+    height: 5em;
+}
+footer ul{
+
+    padding-left: 100px;
+}
+.footer li{
+    display: inline;
+    color:rgba(225,225,225,.75);
+    margin: 1em 1em 1em 1em;
+    padding-top: 1em;
+}
+.footer img{
+width: 40px;
+height: 40px;
+margin-top: 10px;
+}
+

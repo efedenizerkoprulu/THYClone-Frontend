@@ -1,0 +1,200 @@
+.background{
+   background-repeat: no-repeat; 
+   background-size: cover;
+   height: 26em;
+   background-position: center;
+   background-image: url(../../img/gorsel.png);  
+   margin-top: 1px;
+ 
+}
+.background-text{
+    padding-top: 5em;
+    padding-left: 8em;
+    font-size: 24px;
+    color: white;
+}
+.background-text p{
+    font-size: 38px;
+    font-weight: 500px;   
+}
+
+
+.space{
+    margin-left: 13em;
+}
+.card{
+    display: flex;
+    box-shadow: 3px 4px 4px 3px rgb(198, 186, 186);
+    width:  21em;
+    height: 11em;
+    float: left;
+    margin:  0px 15px 20px 6px ; 
+}
+
+.card-link:hover{
+color: red;
+}
+.card-link{
+    color: black;
+}
+.card-space{
+    margin-right: 1em;
+}
+.covid-panel{
+    clear: left ;
+    padding-top: 4em;
+    width: 65em;
+}
+
+.info-circle {
+    background-color: #E81932;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 14pt;
+    padding: 7px 15px;
+    width: 2em;
+    height: 2em;
+}
+
+.img-align-left {
+    margin-right: 15px;
+    margin-top: 30px;
+    float: left;
+}
+
+.covid-panel p{
+    margin: 0 0 10px;
+}
+.covid-panel a{
+    color: #E81932;
+}
+ .line{
+    color: #647280;
+    margin: 3em 0em 0em -14em;
+    width: 1530px;
+    opacity: 50%;
+}
+.info{
+    margin-right: 15px;
+    float: left;
+}
+.info img{
+    margin-top: -2em;
+}
+.info a{
+    color: #E81932;
+}
+.info p{
+    margin-top: -1em;
+    width: 60em;
+}
+
+.card-image{
+    margin:50px 1px 40px 140px;
+    width: 34em;
+    float: left;
+   display: flex;
+    height: 36em;
+    box-shadow: 0px 2px 2px rgb(198, 186, 186);
+}
+
+.card-image img{
+    width: 32em;
+    margin-left: 16px;
+}
+
+.card-image p{
+    padding: 1em 2em;
+    color: #647280;
+    width: 35em;
+}
+
+.card-image button{
+ background-color: rgb(206, 6, 6);
+ border: solid;
+ margin: 1em 3em 2em;
+ width: 7em;
+ height: 3em;
+ font-weight: bold;
+ color: white;
+ size: small;
+}
+.card-image h3{
+    margin: 1em 0em 1em 1em;
+    font-size: 20px;
+}
+.card-image hr{
+   background-color: rgba(150, 6, 6, 0.418);
+    margin: 1em 6em 1em 0em;
+    width: 34em;
+    opacity: 50%;
+}
+
+.more-details{
+    color: #647280;
+    text-align: center;
+}
+.more-details h2{
+    padding-top: 50px;
+    margin-left: -120px;
+    
+}
+.more-details a{
+    color: #E81932;
+    margin-top: 15px;
+}
+.more-details h4{
+    margin-top: 5px;
+}
+#center{
+    margin-left: -120px;
+}
+ .carousel-control {
+    height: 60px;
+    width: 90px;
+    margin: 2em 2em 2em 2em;
+    background-image: none;
+    background-color: #fff;
+    filter: none;
+    border-radius: 50%;
+    border: 3px solid #b1b3b7;
+    color: #b1b3b7;
+   
+
+ }
+ .slider{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin: 5em 10em 0em 5em;
+   
+ }
+ .slider-box{
+    display:flex;
+    float: left;
+    width: auto;
+    height: auto;
+    overflow-x: scroll;
+   overflow: hidden;
+    scroll-behavior: smooth;
+ }
+ 
+ .apparnce h4{
+    text-align: center;
+    width: 280px;
+    font-size: 18px;
+    margin:  3px 0em 10px;
+    font-weight: normal;
+ }
+
+ .apparnce p{
+    width: 370px;
+    color:#647280;
+    margin-right: 7px;
+    margin-bottom: 10px;
+ }
+ .apparnce a{
+    color: #E81932;
+    margin-left: 8em;
+    text-align: center;
+ }

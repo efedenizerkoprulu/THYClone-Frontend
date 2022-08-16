@@ -1,0 +1,44 @@
+.main-text{
+    width: 300px;
+    clear: left;
+    margin-bottom: 10px;
+    
+}
+.main button{
+    background-color: red;
+    color: white;
+    height: 55px;
+    margin-left: 10px;
+    width: 210px;
+}
+.main  button:hover{
+    background-color: #232b38;
+}
+.count{
+    background-color: #F4F5F8;
+    display: flex;
+    float: left;
+    width: 60px;
+    height: 60px;
+    color: #647280;
+    margin-right : 10px;
+}
+.count p{
+    margin-top: 13px;
+    margin-left: 25px;
+    font-size: 25px; 
+    font-weight: bold;
+}
+.passenger-count{
+    float: right;
+}
+.button{
+    float: right;
+}
+#add-passenger{
+    background-color: #232b38;
+}
+
+#add-passenger:hover{
+    background-color: red;
+}

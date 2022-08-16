@@ -1,0 +1,20 @@
+.Child-header {
+  background-color: #2b3947;
+  height: 30px;
+  font-size: 12px;
+  color: white;
+}
+.Child-header li {
+  float: right;
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+}
+.Child-header ul {
+  padding: 5px;
+}
+.Child-header a:hover {
+  color: #7dc5be;
+}
+
+

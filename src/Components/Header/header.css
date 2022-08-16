@@ -1,0 +1,59 @@
+.header{
+    background-color: #232b38;
+    height: 50PX;
+    color: white;
+   font-size: 25px;
+   padding-left: 20px;
+   clear: left;
+   padding-top: 2PX;;
+}
+.header img{
+    width: 50x ;
+    height: 50px;
+    padding: 5px;;
+}
+.header ul{
+    float: right;
+    list-style: none;
+    padding-right: 5px;
+}
+.header li{
+    display: inline;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.btn-transparent
+{
+    Background-color: rgba(35,43,56,.25);
+    color: #FFF;
+    border-color: rgba(255,255,255,.5);
+    text-shadow: 0 1px 0 #000;
+    margin-top: 5px;
+    font-weight: bold;
+   
+}
+.navbar-btn{
+margin-left: 3px!important;
+    padding: 8px!important;
+    border-radius: 18pX;
+    
+}
+
+.btn-transparent i{
+ margin-right: 10px;
+ margin-left: 10px;
+}
+.register-text{
+    font-size:13px;
+    color:lightgray;
+}
+
+.mega-menu{
+    background-color: #2b3947;
+    height: 3em;
+}
+.border:hover{
+    border-bottom: 3px solid red;
+}
+
